@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <uri><![CDATA[http://api.bart.gov/api/route.aspx?cmd=routeinfo&route=11]]></uri>
+    <sched_num>34</sched_num>
+    <routes>
+        <route>
+            <name>Dublin/Pleasanton - Daly City</name>
+            <abbr>DUBL-DALY</abbr>
+            <routeID>ROUTE 11</routeID>
+            <number>11</number>
+            <origin>DUBL</origin>
+            <destination>DALY</destination>
+            <direction />
+            <color>#0099cc</color>
+            <holidays>1</holidays>
+            <num_stns>17</num_stns>
+            <config>
+                <station val="1">DUBL</station>
+                <station val="2">WDUB</station>
+                <station val="3">CAST</station>
+                <station val="4">BAYF</station>
+            </config>
+        </route>
+    </routes>
+    <message />
+</root>
