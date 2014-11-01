@@ -3,7 +3,7 @@ package com.levelup.groovy.xml
 import org.junit.Test
 
 /**
- * This groovy example will demonstrate how to read rss with XMLSlurper
+ * This groovy example will demonstrate how to read sitemap with XMLSlurper
  *
  * @author Justin Musgrove
  * @see <a href='http://www.leveluplunch.com/groovy/examples/parse-sitemap-xml-with-xmlsluper/'>Parse sitemap with XmlSlurper</a>
