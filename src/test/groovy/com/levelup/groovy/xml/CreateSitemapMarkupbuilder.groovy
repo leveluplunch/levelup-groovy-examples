@@ -4,7 +4,7 @@ import groovy.xml.XmlUtil
 import org.junit.Test
 
 /**
- * This groovy example will demonstrate how to
+ * This groovy example will demonstrate how to create a sitemap.
  *
  * @author Justin Musgrove
  * @see <a href='http://www.leveluplunch.com/groovy/examples/create-sitemap-xml-with-streaming-markupbuilder/'>Create sitemap with markupbuilder</a>
