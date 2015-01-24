@@ -3,10 +3,10 @@ package com.levelup.groovy.net
 import org.junit.Test
 
 /**
- * This groovy example will show how to make a get request to a URL
+ * This groovy example will show how to fetch web page contents
  *
  * @author Justin Musgrove
- * @see <a href='http://www.leveluplunch.com/groovy/examples/make-get-request-httpbuilder-apache-httpcomponents/'>Make a get request to a URI or URL</a>
+ * @see <a href='http://www.leveluplunch.com/groovy/examples/get-webpage-content-url-uri/'>Get webpage content form URL</a>
  */
 class GetWebPageContent {
 
