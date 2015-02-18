@@ -7,7 +7,8 @@ import org.junit.Test
  *
  * @author Justin Musgrove
  * @see <a href='http://www.leveluplunch.com/groovy/examples/number-of-days-between-two-dates/'>Calculate days between two dates</a>
- */ class DaysBetweenDates {
+ */
+class DaysBetweenDates {
 
     @Test
     public void difference_between_date_in_days() {
