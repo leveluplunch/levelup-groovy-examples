@@ -11,11 +11,27 @@ import org.junit.Test;
 class CombineTwoLists {
 
 	@Test
-	public void combine_two_lists () {
+	public void combine_two_lists_addAll () {
 
 		def first = ["a", "b", "c"]
 		def second = ["d", "e", "f"]
 
-		assert ["a", "b", "c", "d", "e", "f"], first.addAll(second)
-	}
+        first.addAll(second)
+
+        assert ["a", "b", "c", "d", "e", "f"] == (first)
+
+        // or
+        // assert ["a", "b", "c", "d", "e", "f"] == (first + second)
+    }
+
+    @Test
+    public void combine_two_lists_plus () {
+
+        def first = ["a", "b", "c"]
+        def second = ["d", "e", "f"]
+
+        assert ["a", "b", "c", "d", "e", "f"] == (first + second)
+
+    }
+
 }
